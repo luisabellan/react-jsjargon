@@ -19,7 +19,7 @@ const saveState = (state) => {
 };
 
 const getState = () => {
-  console.log("get unitial state!!!");
+  console.log("get initial state");
   try{
     const s = localStorage.getItem("state");
     

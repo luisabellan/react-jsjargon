@@ -2,7 +2,9 @@ import { combineReducers } from 'redux';
 import termsReducer from './termsReducer';
 import favoritesReducer from './favoritesReducer';
 
-export default combineReducers({
+const rootReducer =  combineReducers({
     terms: termsReducer,
     favorites: favoritesReducer
 });
+
+export default rootReducer;
